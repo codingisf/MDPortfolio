@@ -1,0 +1,180 @@
+.SecondPage{
+  height:100vh;
+  margin: 0;
+  padding:0;
+
+}
+.s-hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height:100%;
+  
+}
+.s-right{
+  width:50%;
+}
+.s-right h2{
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.s-left img{
+  height:350px;
+  border-radius: 17px;
+}
+.tree{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 270px;
+  margin-top: 50px;
+  font-size: 29px;
+}
+/* TimeLine */
+.timeLine{
+  position: relative;
+  max-width: 1200px;
+  margin:100px auto;
+}
+.timeLine-container{
+  padding:10px 50px;
+  position:relative;
+  width:50%;
+  
+
+}
+
+.text-box{
+  padding:20px 30px;
+  background: #fff;
+  color: #000;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.left-timeLine-container{
+  left:0;
+}
+.right-timeLine-container{
+  left:50%;
+}
+.image{
+  height: 45px;
+  width: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right:-22px;
+  top:32px;
+  z-index: 10;
+}
+.right-timeLine-container .image{
+  left:-22px
+}
+
+.timeLine::after{
+  content: '';
+  position:absolute;
+  width: 6px;
+  height:100%;
+  background: #fff;
+  top:0;
+  left:50%;
+  margin-left: -3px;
+  border-radius: 4px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+  0%{
+    height:0;
+  }  
+  100%{
+    height:100%;
+  }
+}
+.text-box h2{
+  font-weight: 600;
+}
+.text-box small{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.left-timeLine-arrow{
+  height:0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top:15px solid transparent;
+  border-bottom:15px solid transparent;
+  border-left:15px solid #fff;
+  right:-15px;
+}
+.right-timeLine-arrow{
+  height:0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top:15px solid transparent;
+  border-bottom:15px solid transparent;
+  border-right:15px solid #fff;
+  left:-15px;
+}
+
+@media only screen and (max-width: 768px){
+  .SecondPage{
+    margin-top:300px;
+  }
+  .s-left img{
+    height:230px;
+  }
+  .s-hero{
+    flex-direction: column;
+    margin:100px auto;
+    width: 100%;
+text-align: left;
+flex-wrap: nowrap;
+  }
+  .s-logo{
+    margin-top: 250px;
+  }
+  .tree{
+    gap:20px;
+  }
+  .timeLine{
+    margin: 50px auto;
+  }
+  .timeLine::after{
+    left:31px;
+  }
+  .timeLine-container{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text-box{
+    font-size: 13px;
+  }
+  .text-box small{
+    margin-bottom: 10px;
+  }
+  .right-timeLine-container{
+    left:0;
+  }
+  .left-timeLine-container .image ,.right-timeLine-container .image{
+    left:9px;
+  }
+  .left-timeLine-arrow,.right-timeLine-arrow{
+    border-right: 15px solid #fff;
+    border-left:0;
+    left:-15px;
+  }
+  .tree{
+    display: none;
+  }
+}

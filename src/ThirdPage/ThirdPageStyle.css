@@ -1,0 +1,205 @@
+.ThirdPage {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 890px;
+  margin-top: 50px;
+  background-color: var(--bg-clr);
+}
+
+.t-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.t-left{
+  width: 50%;
+}
+
+.skill-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 150px;
+}
+
+.skill-name span {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin-top: 13px;
+}
+.skill-name span img {
+  width: 27px;
+  height: 27px;
+  margin-top: 2px;
+}
+
+.progress-bg {
+  background-color: #ffffff;
+  width: 370px;
+  height: 13px;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bg p {
+  background: var(--clr);
+  height: 100%;
+  border-radius: 7px;
+  transition: width 0.3s ease;
+}
+.progress-bg p::after {
+  content: attr();
+  color: var(--bg-clr);
+  font-size: small;
+  text-align: center;
+  position: absolute;
+  top: -3px;
+  font-weight: 500;
+}
+
+.p1 {
+  width: 65%;
+}
+.p1::after {
+  content: "65%";
+  right: 25%;
+}
+
+.p2 {
+  width: 30%;
+}
+.p2::after {
+  content: "30%";
+  right: 60%;
+}
+
+.p3 {
+  width: 80%;
+}
+.p3::after {
+  content: "80%";
+  right: 10%;
+}
+
+.p4 {
+  width: 50%;
+}
+.p4::after {
+  content: "50%";
+  right: 40%;
+}
+
+.skill-img img {
+  margin: 15px;
+  margin-top: 40px;
+  height: 150px;
+  width: 150px;
+}
+.python {
+  height: 110px;
+}
+.git{
+  width:90px;
+  height:50px;
+}
+.skill-name {
+  font-size: 30px;
+}
+.skill-img {
+  margin-top: 90px;
+}
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+}
+/* For scroll animation below the skill page */
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  margin: 100px 0;
+  white-space: nowrap;
+  position: relative;
+}
+.logos h1{
+  padding: 17px;
+  margin-top: -80px;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+.logos-slide img {
+  height: 120px;
+  margin: 10px 40px;
+}
+.tor,
+.adurino {
+  height: 80px;
+}
+.git {
+  width: 32px; /* Adjust the size as needed */
+  height: 32px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .ThirdPage{
+    margin-top: 230px;
+  }
+  .t-hero {
+    flex-direction: column;
+    
+  }
+  .logo{
+    font-size:29px;
+  }
+  
+  .skill-name {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 22px;
+  }
+
+  .skill-img img {
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .col-1,
+  .col-2 {
+    flex-direction: column;
+    margin-left: 200px;
+  }
+}
