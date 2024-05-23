@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-hash-link']
+      external: ['react-router-hash-link'],
+      external: ['react-router-dom']
     }
   }
 })
