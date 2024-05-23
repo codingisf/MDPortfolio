@@ -4,7 +4,7 @@ import SecondPage from "./SecondPage/SecondPage";
 import ThirdPage from "./ThirdPage/ThirdPage";
 import Fourthpage from "./FourthPage/Fourthpage";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 
@@ -38,7 +38,7 @@ function App() {
   }, [showScroll]);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <nav>
         <div className="nav-logo">
           <h3>Cybernetic MD</h3>
@@ -73,7 +73,7 @@ function App() {
       >
         ↑
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
