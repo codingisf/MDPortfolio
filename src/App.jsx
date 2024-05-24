@@ -3,7 +3,7 @@ import FirstPage from "./FirstPage/FirstPage";
 import SecondPage from "./SecondPage/SecondPage";
 import ThirdPage from "./ThirdPage/ThirdPage";
 import Fourthpage from "./FourthPage/Fourthpage";
-import { HashLink } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -45,18 +45,18 @@ function App() {
         </div>
         <div className="list">
           <ul className="ul">
-          <HashLink className="link" smooth to="#home">
+          <Link className="link" smooth to="#home">
             <li className="li">Home</li>
-            </HashLink>
-            <HashLink className="link" smooth to="#about">
+            </Link>
+            <Link className="link" smooth to="#about">
               <li className="li">About</li>
-            </HashLink>
-            <HashLink className="link" smooth to="#skills">
+            </Link>
+            <Link className="link" smooth to="#skills">
               <li className="li">Skills</li>
-            </HashLink>
-            <HashLink className="link" smooth to="#contact">
+            </Link>
+            <Link className="link" smooth to="#contact">
               <li className="li">Contact</li>
-            </HashLink>
+            </Link>
           </ul>
         </div>
       </nav>
