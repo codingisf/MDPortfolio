@@ -3,7 +3,7 @@ import FirstPage from "./FirstPage/FirstPage";
 import SecondPage from "./SecondPage/SecondPage";
 import ThirdPage from "./ThirdPage/ThirdPage";
 import Fourthpage from "./FourthPage/Fourthpage";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import { HashRouter ,Routes,Route} from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -49,7 +49,7 @@ function App() {
           <a className="link" smooth to="#home">
             <li className="li">Home</li>
             </Link>
-            <a className="link" smooth to="#about">
+            <Link className="link" smooth to="/about">
               <li className="li">About</li>
             </Link>
             <a className="link" smooth to="#skills">
