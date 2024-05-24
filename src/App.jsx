@@ -38,23 +38,23 @@ function App() {
   }, [showScroll]);
 
   return (
-    <HashRouter>
+    <>
       <nav>
         <div className="nav-logo">
           <h3>Cybernetic MD</h3>
         </div>
         <div className="list">
           <ul className="ul">
-          <Link className="link" smooth to="#home">
+          <a className="link" smooth to="#home">
             <li className="li">Home</li>
             </Link>
-            <Link className="link" smooth to="#about">
+            <a className="link" smooth to="#about">
               <li className="li">About</li>
             </Link>
-            <HashLink className="link" smooth to="#skills">
+            <a className="link" smooth to="#skills">
               <li className="li">Skills</li>
             </HashLink>
-            <Link className="link" smooth to="#contact">
+            <a className="link" smooth to="#contact">
               <li className="li">Contact</li>
             </Link>
           </ul>
@@ -73,7 +73,7 @@ function App() {
       >
         ↑
       </div>
-    </HashRouter>
+    </>
   );
 }
 
