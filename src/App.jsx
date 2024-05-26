@@ -17,7 +17,6 @@ function App() {
       <SecondPage />
       <ThirdPage />
       <Fourthpage/>
-      
      <ScrollBar/>
     </BrowserRouter>
   );
