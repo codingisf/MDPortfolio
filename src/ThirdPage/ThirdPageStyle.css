@@ -182,18 +182,13 @@
 .scroll-logo{
   font-size:24px;
 }
-  .t-hero,.t-left,.t-right{
-  width:80%;
-    margin:0;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-  }
-  .t-left,.t-right{
-    width:80%;
-    margin:0 auto;
+
+  .t-left{
+    margin-left:-150px;
 }
+  .t-right{
+    margin-left:150px;
+  }
 
 .progress-bg p::after {
   right: 5%;
