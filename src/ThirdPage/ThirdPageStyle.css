@@ -182,7 +182,7 @@
 .scroll-logo{
   font-size:24px;
 }
-  .t-hero{
+  .t-hero,.t-left,.t-right{
   width:80%;
     margin:0;
     display:flex;
