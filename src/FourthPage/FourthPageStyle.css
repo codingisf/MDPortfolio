@@ -6,7 +6,7 @@
   }
   
   .FourthPage h2 {
-    margin: 300px 0 0 50px;
+    margin: 70px 0 0 50px;
   }
   
   .f-hero {
@@ -109,10 +109,10 @@
       margin-left: 40px;
       margin-top: -150px;
     }
-  
-/*     .FourthPage {
-      margin-top: 950px;
-    } */
+      .FourthPage {
+      margin-top: 350px;
+    } 
+      
   
     form input[type='submit'] {
       margin-left: 55px;
