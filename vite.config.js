@@ -1,13 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
-export default {
+export default defineConfig({
   plugins: [react()],
-  root: './',
+  resolve: {
+    alias: {
+      'react-router-dom': 'react-router-dom',
+      'react-router-hash-link': 'react-router-hash-link'
+    }
+  },
   build: {
     rollupOptions: {
-      external: ['react-router-hash-link']
+      external: ['react-router-dom', 'react-router-hash-link']
     }
   }
-}
+});
