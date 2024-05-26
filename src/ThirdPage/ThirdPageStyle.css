@@ -182,12 +182,8 @@
 .scroll-logo{
   font-size:24px;
 }
-
-  .t-left{
-    margin-left:-150px;
-}
-  .t-right{
-    margin-left:150px;
+.t-left,.t-right{
+  margin:0 auto;
   }
 
 .progress-bg p::after {
