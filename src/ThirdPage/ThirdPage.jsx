@@ -117,7 +117,7 @@ export default function ThirdPage() {
         </div>
       </div>
       <div className="logos">
-        <h2 className="logo">My Strong Foundations</h2>
+        <h2 className="logo scroll-logo">My Strong Foundations</h2>
         <div className="logos-slide">
           <img className="terminal" src="/img/1.png" alt="Terminal" />
           <img className="adurino" src="/img/2.png" alt="Arduino" />
