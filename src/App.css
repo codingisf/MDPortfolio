@@ -100,7 +100,6 @@ nav .link{
     display: none;
   }
   .ul {
-    margin-left: -110px;
-    margin-right: 60px;
+    margin:0 auto;
   }
 }
