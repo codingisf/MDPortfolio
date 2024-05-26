@@ -183,16 +183,15 @@
   font-size:24px;
 }
   
-/* .t-left,.t-right{
-  width:80%;
-  margin:0 auto;
-  } */
+ .t-left,.t-right{
+  position:relative;
+  } 
 
   .t-left{
-    margin-left:-150px;
+    left:5%;
   }
   .t-right{
-  margin-right:150px;
+  right:20%;
   }
 
 .progress-bg p::after {
