@@ -29,12 +29,14 @@
   .f-head {
     display: flex;
     padding: 17px;
-    
     justify-content: center;
     align-items: flex-start;
     color: aliceblue;
   }
-  
+  .f-left h3 i{
+    margin:7px;
+    margin-left: -19px;
+  }
   .f-left div {
     margin: 26px 30px;
     color: aliceblue;
@@ -59,8 +61,9 @@
     border-radius: 18px;
   }
   
-  form h2 {
+  .f-right form h2 {
     text-align: center;
+    margin-left:-26px;
   }
   
   .c-name {
@@ -111,6 +114,7 @@
   }
   footer h4{
     margin-left:40px;
+    margin-top: 10px;
   }
 
 

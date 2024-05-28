@@ -4,7 +4,7 @@
   padding:0;
 
 }
-.s-hero{
+.s-hero,.s-second{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -12,10 +12,17 @@
   height:100%;
   
 }
+.s-second{
+  margin: 0 140px;
+}
 .s-right{
   width:50%;
   text-align: justify!important;
   font-size: 17px;
+}
+
+.s-right .s-content span{
+  font-weight: 600;
 }
 .s-right h2{
   font-weight: 600;
@@ -35,6 +42,10 @@
   font-size: 29px;
 }
 /* TimeLine */
+.Qulaification{
+ margin:150px 0;
+}
+
 .timeLine{
   position: relative;
   max-width: 1200px;

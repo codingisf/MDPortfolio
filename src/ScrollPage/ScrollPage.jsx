@@ -4,7 +4,7 @@ import "../ThirdPage/ThirdPageStyle.css";
 function ScrollPage() {
   return (
     <div className="ScrollPage">
-        <h2 className="logo scroll-logo">My Strong Foundations</h2>
+        <h2 className="logo scroll-logo">My Strong <br />Foundations</h2>
     <div className="logos">
         
         <div className="logos-slide">

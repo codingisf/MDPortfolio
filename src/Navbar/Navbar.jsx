@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css"
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -14,6 +15,9 @@ function Navbar() {
           </Link>
           <Link className="link" to="about" smooth={true} duration={700}>
             <li className="li">About</li>
+          </Link>
+          <Link className="link" to="Qualification" smooth={true} duration={900}>
+            <li className="li">Qualification</li>
           </Link>
           <Link className="link" to="skills" smooth={true} duration={900}>
             <li className="li">Skills</li>

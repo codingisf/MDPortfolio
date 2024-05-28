@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 890px;
-  margin-top: 50px;
+
   background-color: var(--bg-clr);
 }
 
@@ -127,14 +126,13 @@
   margin: 100px 0;
   white-space: nowrap;
   position: relative;
-  height:100vh;
+
 }
 .logos:before,
 .logos:after {
   position: absolute;
   top: 0;
-  width: 250px;
-  height: 100%;
+  width: 350px;
   content: "";
   z-index: 2;
 }
@@ -145,7 +143,7 @@
 
 .logos-slide {
   display: inline-block;
-  animation: 35s slide infinite linear;
+  animation: 10s slide infinite linear;
 }
 .logos-slide img {
   height: 120px;
@@ -159,7 +157,9 @@
   width: 32px; /* Adjust the size as needed */
   height: 32px;
 }
-
+.scroll-logo{
+  text-align: center;
+}
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -210,6 +210,9 @@
 .progress-bg {
   width:300px;
   margin-left: -20px;
+}
+.scroll-logo{
+  margin-top: 70px;
 }
 
 }

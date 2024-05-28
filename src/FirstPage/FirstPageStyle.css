@@ -73,7 +73,7 @@ button {
   border: 2px solid var(--clr);
   border-radius: 25px;
   font-size: var(--font-size-base);
-  color: #ffffff;
+  color: var(--bg-clr);
   transition-duration: 0.5s;
 }
 
