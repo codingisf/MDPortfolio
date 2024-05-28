@@ -14,6 +14,8 @@
 }
 .s-right{
   width:50%;
+  text-align: justify!important;
+  font-size: 17px;
 }
 .s-right h2{
   font-weight: 600;

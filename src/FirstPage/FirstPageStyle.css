@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
 
 :root {
-  --bg-clr: #020413;
-  --clr: #43b1da;
+  /* --bg-clr: #020413; */
+  --bg-clr:#050c43;
+  /* --clr: #43b1da; */
+  --clr:#5debd7;
   --font-family-main: 'Poppins', sans-serif;
   --font-family-heading: 'Aldrich', sans-serif;
   --font-size-base: 16px;
@@ -57,7 +59,9 @@ body {
 .left{
   margin-left: -80px;
 }
-
+.para{
+  text-align: justify!important;
+}
 .run .text {
   color: var(--clr);
 }

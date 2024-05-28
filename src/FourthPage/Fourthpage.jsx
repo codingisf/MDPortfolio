@@ -81,8 +81,7 @@ export default function Fourthpage() {
           </motion.div>
         </div>
       </div>
-    </div>
-    <footer>
+      <footer>
       <div class="footer-col">
             <h4>follow us</h4>
             <div class="links">
@@ -93,5 +92,7 @@ export default function Fourthpage() {
             </div>
         </div>
     </footer>
+    </div>
+    
   );
 }

@@ -29,6 +29,7 @@
   .f-head {
     display: flex;
     padding: 17px;
+    
     justify-content: center;
     align-items: flex-start;
     color: aliceblue;
@@ -68,13 +69,13 @@
     gap: 30px;
   }
   
-/*   .FirstName,
+ .FirstName,
   .LastName,
   .email {
     display: flex;
     flex-direction: column;
   }
-   */
+
   input,
   textarea {
     padding: 5px 10px;
@@ -88,6 +89,7 @@
     color: #ffffff;
     border-radius: 20px;
     padding: 9px 0 9px 0;
+    
   }
   
   input[type='submit']:hover {
@@ -97,8 +99,27 @@
   }
   footer{
       height:100px;
+      margin-top: 120px;
       border-top:1px solid var(--clr);
+      display: flex;
+      justify-content: center;
   }
+  .footer-col .links{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  footer h4{
+    margin-left:40px;
+  }
+
+
+  .footer-col .links a i{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: var(--clr);
+  }
+
   @media only screen and (max-width: 789px) {
     .f-hero {
       display: flex;
@@ -107,13 +128,20 @@
       justify-content: center;
       align-items: center;
     }
+    .f-head{
+      margin-top: 90px;
+    }
+    input[type='submit']{
+      margin-left: -30px;
+    }
+    
   
     .f-hero .f-left {
       margin-left: 40px;
       margin-top: -150px;
     }
       .FourthPage {
-      margin-top: 950px;
+      margin-top: 450px;
     } 
       .c-name{
           flex-direction:column;

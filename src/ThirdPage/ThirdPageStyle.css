@@ -127,12 +127,8 @@
   margin: 100px 0;
   white-space: nowrap;
   position: relative;
+  height:100vh;
 }
-.logos h1{
-  padding: 17px;
-  margin-top: -80px;
-}
-
 .logos:before,
 .logos:after {
   position: absolute;
@@ -181,11 +177,16 @@
   display: flex;
   flex-direction: column;
   margin:0 auto;
+  overflow-x: hidden;
 }
 .t-right{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  
+}
+.t-right{
+  margin-left: -40px;
 }
 .skill-img{
   display: flex;
@@ -206,6 +207,9 @@
   margin-top: 30px;
 }
 
-/* For skill image columns */
+.progress-bg {
+  width:300px;
+  margin-left: -20px;
+}
 
 }

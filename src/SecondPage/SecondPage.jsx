@@ -39,14 +39,19 @@ export default function SecondPage() {
         </div>
       </div>
 
-      <h2 className="logo s-logo" >Qulification</h2>
+      <h2 className="logo s-logo">Qualification</h2>
       <div className="tree">
         <h3 >Education</h3>
         <h3>Works</h3>
       </div>
 
       <div className="timeLine">
-        <div className="timeLine-container left-timeLine-container">
+        <motion.div 
+          initial={{opacity:1,y:-130}}
+          whileInView={{opacity:1,y:50}}
+          transition={{duration:2}}
+          viewport={{ once: true }}
+        className="timeLine-container left-timeLine-container">
           <p className="image"></p>
           <div className="text-box">
             <h2>Schooling</h2>
@@ -57,9 +62,15 @@ export default function SecondPage() {
             <p>Trichy-XII</p>
             <small>2019 - 2021</small>
             <span className="left-timeLine-arrow"></span>
-          </div>
+          
         </div>
-        <div className="timeLine-container right-timeLine-container">
+        </motion.div>
+        <motion.div 
+        initial={{opacity:1,y:-130}}
+        whileInView={{opacity:1,y:50}}
+        transition={{duration:2,delay:0.5}}
+        viewport={{ once: true }}
+        className="timeLine-container right-timeLine-container">
           <p className="image"></p>
           <div className="text-box">
             <h2>Intern </h2>
@@ -70,8 +81,13 @@ export default function SecondPage() {
             <small>Jun2023 -Aug2023</small>
             <span className="right-timeLine-arrow"></span>
           </div>
-        </div>
-        <div className="timeLine-container left-timeLine-container">
+        </motion.div>
+        <motion.div 
+        initial={{opacity:1,y:-130}}
+        whileInView={{opacity:1,y:50}}
+        transition={{duration:2,delay:1}}
+        viewport={{ once: true }}
+        className="timeLine-container left-timeLine-container">
           <p className="image"></p>
           <div className="text-box">
             <h2>Pursuing</h2>
@@ -81,8 +97,9 @@ export default function SecondPage() {
             <small>2021-2025</small>
             <span className="left-timeLine-arrow"></span>
           </div>
+          </motion.div>
         </div>
-      </div>
+      
     </>
   );
 }

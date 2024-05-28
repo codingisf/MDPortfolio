@@ -2,6 +2,7 @@ import "./App.css";
 import FirstPage from "./FirstPage/FirstPage";
 import SecondPage from "./SecondPage/SecondPage";
 import ThirdPage from "./ThirdPage/ThirdPage";
+import ScrollPage from "./ScrollPage/ScrollPage";
 import Fourthpage from "./FourthPage/Fourthpage";
 import Navbar from "./Navbar/Navbar";
 import ScrollBar from "./ScrollBar";
@@ -23,6 +24,7 @@ function App() {
         <Element name="skills">
           <ThirdPage />
         </Element>
+        <ScrollPage/>
         <Element name="contact">
           <Fourthpage/>
                  </Element>
