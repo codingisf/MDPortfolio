@@ -64,7 +64,7 @@
   
   .c-name {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
   }
   
@@ -112,6 +112,9 @@
       .FourthPage {
       margin-top: 950px;
     } 
+      .c-name{
+          flex-direction:column;
+      }
       
   
     form input[type='submit'] {
