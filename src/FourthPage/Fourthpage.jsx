@@ -82,5 +82,16 @@ export default function Fourthpage() {
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
   );
 }
