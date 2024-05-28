@@ -68,13 +68,13 @@
     gap: 30px;
   }
   
-  .FirstName,
+/*   .FirstName,
   .LastName,
   .email {
     display: flex;
     flex-direction: column;
   }
-  
+   */
   input,
   textarea {
     padding: 5px 10px;
