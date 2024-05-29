@@ -146,6 +146,9 @@
   .s-left img{
     height:230px;
   }
+  .s-right .s-content{
+    text-align: justify!important;
+  }
   .s-hero{
     flex-direction: column;
     margin:100px auto;
