@@ -181,6 +181,7 @@
   flex-direction: column;
   margin:0 auto;
   overflow-x: hidden;
+  margin-top:200px;
 }
 .t-right{
   margin: 0 auto;
