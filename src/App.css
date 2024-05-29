@@ -99,6 +99,9 @@ nav .link{
   .nav-logo h3 {
     display: none;
   }
+  .nav{
+    margin-left:-20px;
+  }
   .ul {
     margin:0 auto;
     margin-left:-40px;
