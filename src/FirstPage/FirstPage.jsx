@@ -68,7 +68,7 @@ export default function FirstPage() {
               </h1>
             </div>
 
-                  <p className="para">I am a B.Tech student. I am interested in Cyber Security <br />And Ethical Hacking and also doing Teaching.</p>
+                  <p className="para">I am a B.Tech student. <br/>I am interested in Cyber Security <br />And Ethical Hacking and also doing Teaching.</p>
             <button onClick={handleDownload}>Download CV</button>
           </motion.div>
 
