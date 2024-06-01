@@ -188,8 +188,8 @@
   flex-direction: column;
   
 }
-.t-right{
-  margin-left: -40px;
+.t-right , .t-left{
+  margin:auto;
 }
 .skill-img{
   display: flex;
