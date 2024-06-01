@@ -106,4 +106,7 @@ nav .link{
     margin:0 auto;
     margin-left:-40px;
   }
+  .ul .li{
+    font-size: 10px ;
+  }
 }
