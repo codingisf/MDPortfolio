@@ -189,7 +189,7 @@
   
 }
 .t-right , .t-left{
-  margin-left:80px;
+  margin-left:-80px;
 }
 .skill-img{
   display: flex;
