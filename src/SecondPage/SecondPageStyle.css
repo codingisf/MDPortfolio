@@ -149,13 +149,15 @@
   }
   .s-right{
     width:85%;
-  }
-  .s-right,.s-second{
     margin:0 27px;
   }
+  
+    
+  
   .s-right .s-second{
     text-align: justify!important;
     width:85%;
+    margin:0 27px;
   }
   .s-hero{
     flex-direction: column;
