@@ -188,6 +188,9 @@
   flex-direction: column;
   
 }
+  .t-left{
+    margin-left:-17px;
+  }
 .t-right{
   margin-left:-80px;
 }
