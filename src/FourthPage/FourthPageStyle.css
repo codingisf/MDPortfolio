@@ -154,6 +154,7 @@
   
     form input[type='submit'] {
       margin:15px auto;
+        width:250px;
     }
       form{
           width:335px;
