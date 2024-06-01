@@ -148,11 +148,11 @@
     height:230px;
   }
   .s-right{
-    width:95%;
+    width:85%;
   }
   .s-right .s-second{
     text-align: justify!important;
-    width:90%;
+    width:85%;
   }
   .s-hero{
     flex-direction: column;
