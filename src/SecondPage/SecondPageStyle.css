@@ -152,6 +152,7 @@
   }
   .s-right .s-second{
     text-align: justify!important;
+    width:90%%;
   }
   .s-hero{
     flex-direction: column;
