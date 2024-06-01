@@ -147,6 +147,9 @@
   .s-left img{
     height:230px;
   }
+  .s-right{
+    width:95%;
+  }
   .s-right .s-second{
     text-align: justify!important;
   }
