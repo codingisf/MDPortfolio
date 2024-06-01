@@ -188,12 +188,9 @@
   flex-direction: column;
   
 }
-.t-right , .t-left{
+.t-right{
   margin-left:-80px;
 }
-  .t-left{
-    margin-right:50px;
-  }
 .skill-img{
   display: flex;
   flex-direction: column;
