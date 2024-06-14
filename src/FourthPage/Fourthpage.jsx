@@ -89,10 +89,10 @@ export default function Fourthpage() {
       <div class="footer-col">
             <h4>follow us</h4>
             <div class="links">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/md-muzamil-039975272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/cybernetic_md?igsh=MXhhNW54OWk4OTkwcQ=="><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>
