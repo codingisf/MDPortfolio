@@ -78,7 +78,7 @@ function QulaificationPage() {
               Dhanalakshimi Srinivasan Enginering college (Perambalur) - B.Tech
               AI&DS
             </p>
-            <small>2021-2025</small>
+            
             <span className="left-timeLine-arrow"></span>
           </div>
         </motion.div>
